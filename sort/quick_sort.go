@@ -1,7 +1,7 @@
 package sort
 
 func QuickSort(nums []int, l, r int) {
-	if l > r {
+	if l >= r {
 		return
 	}
 	i, j, x := l, r, nums[l]
